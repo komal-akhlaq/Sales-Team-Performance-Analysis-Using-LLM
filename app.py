@@ -18,7 +18,7 @@ def load_data(file_path):
         return None
 
 # Load the data from the Excel file
-data = load_data('data/data.xlsx')
+data = load_data('data.xlsx')
 if data is None:
     raise Exception("Failed to load the data. Ensure the file path is correct and the file is a valid Excel file.")
 
